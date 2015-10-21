@@ -1,0 +1,55 @@
+Hvordan hjalp DIFF med å oppdage feilen i koden?
+
+Ved å sammenligne filene med verktøyet diff, kunne jeg enkelt se kode som var
+endret i filen. Tilført kode har gul skriftfarge, linjene blir da enkle å få øye
+på når beveget blikket nedover.
+
+
+På hvilken måte kan du som utvikler bli mer effektiv ved å ha tilgang til hele
+filens historie?
+
+Forbedringer og smarte løsninger kan enkelt belyses ved å sammenlikne historien
+til filene. Disse lærdommene som oppdages vil lettere kunne implementeres i
+fremtidig kode.
+
+Fordeles og ulemper ved manuelle comits vs automatiske som f.eks. Google Docs
+har?
+
+Ved å autokjøre comits så trenger en ikke å huske på det. Den store ulempen med
+disse comittene er at de ikke er særlig logiske. Manuelle comits er definitivt
+veien å gå. Når en har gjort en endring som er passe stor og som har en logisk
+tilhørighet, så er tiden inne for å ta en comit.
+
+
+Hvorfor tillater Git å lagre flere filer i en comit?
+
+I og med at Git ble skapt for kodebasen til Linux, så ble det att høyde for at
+en endring kan berøre flere filer. Det er nok grunnen til at Git på en
+glimmrende måte tar i mot flere filer ved hver enkelt comit.
+
+
+Hvordan kan jeg bruke kommandoene git log og git diff for å vise historien til
+filer?
+
+Et naturlig scenario er at jeg ønsker å finne en spesifikk endring jeg har
+gjort. Første steg blir da å bruke git log for å finne comiten som berører
+endringen. Jeg vil så bruke comit id'en til endringen og comit id'en til den
+comiten som kom før den til å se endringen.
+
+
+Er det trolig at jeg kommer til å gjøre flere endringer i kode ved å bruke
+versjons-kontroll?
+
+Ja, absolutt! Tidligere erfaringer sier meg at jeg ofte har tatt den lette veien
+fremfor å prøve fiffe ideer. Grunnen er at store endringer medfører mye arbeid
+hvis jeg ønsker å ditche ideen.
+
+
+Hva ønsker jeg å bruke git til?
+
+Først og fremst så vil jeg bruke git til android programeringen. Hvis jeg kan
+greie å mestre git så vil det blir langt mer interessant å jobbe med utvikling
+av android apper. Jeg bruker også git til å holde styr på mine passord. Hvert
+enkelt passord lagres i en fil som er gpg kryptert. Password Store holder styr
+på comits og alt annet som hører med denne løsningen. Ved å bruke git vil jeg
+også kunne bidra til open source prosjekter.
