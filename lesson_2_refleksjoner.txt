@@ -4,3 +4,16 @@ Det lages en skjult mappe med navnet .git. Under denne mappen 5 mapper, og 3
 filer som git bruker for å fungere.
 
 
+Hvordan kan jeg bruke staging området til å forsikre meg om at det er en logisk
+endring hvor hver commit?
+
+Jeg kan kjøre git diff --staged for å se endringer som er klare til å sendes.
+
+
+I hvilke situasjoner kan den være fornuftig å bruke brances for å opprettholde
+historien organisert?
+
+For å prøve ut en helt ny endring i programmet.
+
+
+
