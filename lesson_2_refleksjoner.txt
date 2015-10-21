@@ -1,0 +1,6 @@
+Hva skjer når jeg lager et git oppbevaringssted? Hvor trenger en å gjøre det?
+
+Det lages en skjult mappe med navnet .git. Under denne mappen 5 mapper, og 3
+filer som git bruker for å fungere.
+
+
